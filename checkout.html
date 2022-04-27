@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CHCKOUT Tugas PemrogWEB Arini</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">		
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="Cari">
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">Akun Saya</a></li>
+							<li><a href="cart.html">Keranjang</a></li>
+							<li><a href="checkout.html">Pesan</a></li>					
+							<li><a href="register.html">Masuk/Daftar</a></li>			
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><img src="logo1.jpeg" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="./products.html">Wanita</a>					
+								<ul>
+									<li><a href="./products.html">Wedding Dress</a></li>									
+									<li><a href="./products.html">Midi Dress</a></li>
+									<li><a href="./products.html">Abaya</a></li>									
+								</ul>
+							</li>																
+							<li><a href="./products.html">Pria</a>
+								<ul>
+									<li><a href="./products.html">Atasan</a></li>
+									<li><a href="./products.html">Bawahan</a></li>
+									<li><a href="./products.html">Jam tangan</a></li>
+								</ul>
+							</li>							
+							<li><a href="./products.html">sling bag</a></li>
+							<li><a href="./products.html">Best Seller</a></li>
+							<li><a href="./products.html">Top Seller</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>				
+			<section class="header_text sub">
+			<img class="pageBanner" src="background1.jpg" alt="Produk Baru" >
+				<h4><span>Pesan</span></h4>
+			</section>	
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">
+						<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Pilihan Pesanan</a>
+								</div>
+								<div id="collapseOne" class="accordion-body in collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Pembeli Baru</h4>
+												<p>Dengan membuat akun Anda akan dapat berbelanja lebih cepat, mengetahui status pesanan, dan melacak pesanan yang telah Anda buat sebelumnya.</p>
+												<form action="#" method="post">
+													<fieldset>
+														<label class="radio" for="register">
+																<input type="radio" name="account" value="register" id="register" checked="checked">Masuk ke Akun sebelumnya
+														</label>
+														<label class="radio" for="guest">
+															<input type="radio" name="account" value="guest" id="guest">Registrasi Akun 
+														</label>
+														<br>
+														<button class="btn btn-inverse" data-toggle="collapse" data-parent="#collapse2">Lanjut</button>
+													</fieldset>
+												</form>
+											 </div>
+											 <div class="span6">
+												<h4>Masuk Akun</h4>
+												<p>Saya telah memiliki akun seblumya</p>
+												<form action="#" method="post">
+													<fieldset>
+														<div class="control-group">
+															<label class="control-label">Nama pengguna</label>
+															<div class="controls">
+																<input type="text" placeholder="Masukan Nama pengguna" id="username" class="input-xlarge">
+															</div>
+														</div>
+														<div class="control-group">
+															<label class="control-label">Kata Sandi</label>
+															<div class="controls">
+															<input type="password" placeholder="Masukan kata sandi" id="password" class="input-xlarge">
+															</div>
+														</div>
+														<button class="btn btn-inverse">Lanjut</button>
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Akun &amp; Rincian Tagihan</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Tentang Diri Anda</h4>
+												<div class="control-group">
+													<label class="control-label">Nama Depan</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Nama Belakang</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label">Alamat Email</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Telphone</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+											</div>
+											<div class="span6">
+												<h4>Alamat</h4>
+												<div class="control-group">
+													<label class="control-label">Perusahaan</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">ID Perusahaan:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>					  
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Alamat 1:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Alamat 2:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Kota:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Kode Pos:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Negara:</label>
+													<div class="controls">
+														<select class="input-xlarge">
+															<option value="1">Afghanistan</option>
+															<option value="2">Belgia</option>
+															<option value="3">Canada</option>
+															<option value="4">Dubai</option>
+															<option value="5">Indonesia</option>
+															<option value="6">Zwitzerland</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Wilayah:</label>
+													<div class="controls">
+														<select name="zone_id" class="input-xlarge">
+															<option value=""> --- Cari --- </option>
+															<option value="3513">Kabul</option>
+															<option value="3514">Bruges</option>
+															<option value="3515">Jawa</option>
+															<option value="3516">Uni Emirat Arab</option>
+															<option value="3517">Zurich</option>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Konfirmasi Pesanan</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="control-group">
+												<label for="textarea" class="control-label">komentar</label>
+												<div class="controls">
+													<textarea rows="3" id="textarea" class="span12"></textarea>
+												</div>
+											</div>									
+											<button class="btn btn-inverse pull-right">Konfirmasi Pesanan</button>
+											</div>									
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</section>			
+			<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Pintasan</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Beranda</a></li>  
+							<li><a href="./about.html">Tentang Kami</a></li>
+							<li><a href="./contact.html">Kontak</a></li>
+							<li><a href="./cart.html">Keranjangmu</a></li>
+							<li><a href="./register.html">Masuk/login</a></li>							
+						</ul>					
+					</div>
+					<div class="span4">
+						<h4>arnfnshop</h4>
+						<ul class="nav">
+							<li><a href="#">Akun kami</a></li>
+							<li><a href="#">Riwayat Pesanan</a></li>
+							<li><a href="#">List keranjang</a></li>
+							<li><a href="#">Pesan baru</a></li>
+						</ul>
+					</div>
+					<div class="span5">
+						<p class="logo"><img src="logo1.jpeg" class="site_logo" alt=""></p>
+						<p>Nama Saya Arini Khansa Nabila dari prodi Manajemen Informatika, Membuat web ini untuk memenuhi tugas Mata Kuliah Pemrograman WEB.</p>
+						<br/>
+						<span class="social_icons">
+							<a class="facebook" href="#">Facebook</a>
+							<a class="twitter" href="#">Twitter</a>
+							<a class="skype" href="#">whatssap</a>
+							<a class="vimeo" href="#">Instagram</a>
+						</span>
+					</div>					
+				</div>	
+			</section>
+			<section id="copyright">
+				<span>&copy;2022 arinikn 31212162 all right reserved</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+    </body>
+</html>
